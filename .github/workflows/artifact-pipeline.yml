@@ -41,7 +41,7 @@ jobs:
           name: app-build
           path: dist
 
-      - name: Verify artifact
+      - name: Verify artifact file
         run: |
           test -f dist/version.txt
           cat dist/version.txt
